@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 <div>
-  <h3><b>To Do List</b></h3>
+  <h3><b>leaderboard</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -21,7 +21,7 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖To Do List <a name="about-project"></a>
+# 📖leaderboard <a name="about-project"></a>
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -36,13 +36,13 @@
 - package.json
 ### Key Features <a name="key-features"></a>
 
-To Do List
+leaderboard
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://abdozayan12.github.io/To-Do-List/dist/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,7 +60,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-https://github.com/abdozayan12/To-Do-List
+https://github.com/abdozayan12/Leaderboard
 
  ````
  To-Do-List
@@ -87,7 +87,7 @@ https://github.com/abdozayan12/To-Do-List
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/abdozayan12/To-Do-List/issues).
+Feel free to check the [issues page](https://github.com/abdozayan12/Leaderboard/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
