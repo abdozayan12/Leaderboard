@@ -4,7 +4,6 @@
   --main: #13160c;
   --third: #989898;
   --fourth: #eef3f0;
-  
 }
 
 * {
@@ -21,10 +20,8 @@ body {
 
 .btn {
   color: var(--main);
-  background-color: var( --third);
-  font: inherit;
+  background-color: var(--third);
   cursor: pointer;
-  outline: inherit;
   padding: 5px;
   font-size: 14px;
   border: 1px solid var(--main);
@@ -33,7 +30,6 @@ body {
 
 .btn:hover {
   cursor: pointer;
-  filter: drop-shadow(2px 3px 0 var(--fourth));
   transform: translateY(-1px);
 }
 
@@ -47,16 +43,16 @@ main {
 
 h1 {
   align-items: center;
-  font-size: 2.2rem;
-  margin-bottom: 20px;
+  font-size: 2rem;
+  margin-bottom: 25px;
 }
 
 .game-container {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  gap: 50px;
-  min-width: 300px;
+  gap: 55px;
+  min-width: 350px;
 }
 
 .title-container {
@@ -88,7 +84,7 @@ h1 {
 }
 
 .scores::-webkit-scrollbar-thumb {
-  background-color: var( --third);
+  background-color: var(--third);
 }
 
 .scores-list {
@@ -112,7 +108,7 @@ form {
 
 input {
   padding: 5px;
-  outline: var( --third);
+  outline: var(--third);
   background: var(--fourth);
   border: 1px solid var(--fourth);
   border-radius: 2.5px;
@@ -128,7 +124,7 @@ button {
 
 @media screen and (min-width: 768px) {
   main {
-    padding: 5% 10%;
+    padding: 5%;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -139,9 +135,8 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 50px;
-    min-width: 800px;
-    margin-top: 25px;
+    min-width: 880px;
+    margin-top: 40px;
   }
 
   h1 {
