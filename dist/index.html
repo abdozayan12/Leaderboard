@@ -15,7 +15,7 @@
       <div class="scores-container">
         <div class="title-container">
           <h3>Recent score</h3>
-          <button type="button" class="btn">Refresh</button>
+          <button type="button" class="btn" id="refBtn">Refresh</button>
         </div>
         <div class="scores">
           <table class="scores-list">
@@ -28,9 +28,9 @@
           <h3>Add your score</h3>
         </div>
         <form>
-          <input type="text" placeholder="Enter your name">
-          <input type="number" placeholder="Enter your score">
-          <button type="submit" class="btn">submit</button>
+          <input type="text" placeholder="Enter your name" id="student" required>
+          <input type="number" placeholder="Enter your score" id="score" required>
+          <button type="button" class="btn" id="submit">submit</button>
         </form>
       </div>
     </section>
