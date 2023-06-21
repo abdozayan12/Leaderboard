@@ -1,5 +1,5 @@
 export default class Board {
-    constructor() {
-      this.data = [];
-    }
+  constructor() {
+    this.data = [];
   }
+}
