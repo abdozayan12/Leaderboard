@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&display=swap");
+
+:root {
+  --main: #13160c;
+  --third: #989898;
+  --fourth: #eef3f0;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  background-color: var(--main);
+  color: var(--fourth);
+}
+
+.btn {
+  color: var(--main);
+  background-color: var(--third);
+  cursor: pointer;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid var(--main);
+  border-radius: 2.5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: translateY(-1px);
+}
+
+main {
+  margin: 5% 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 55px;
+  min-width: 350px;
+}
+
+.title-container {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scores-container,
+.form {
+  width: 100%;
+  padding: 0 30px;
+}
+
+.scores {
+  border: 1px solid var(--fourth);
+  border-radius: 2.5px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.scores::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+.scores::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(19, 19, 19, 0.3);
+}
+
+.scores::-webkit-scrollbar-thumb {
+  background-color: var(--third);
+}
+
+.scores-list {
+  width: 100%;
+  color: var(--fourth);
+}
+
+.scores-list td {
+  padding: 5px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(249 224 187 / 43%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 5px;
+  outline: var(--third);
+  background: var(--fourth);
+  border: 1px solid var(--fourth);
+  border-radius: 2.5px;
+}
+
+input::placeholder {
+  color: var(--main);
+}
+
+button {
+  align-self: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    padding: 5%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .game-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 880px;
+    margin-top: 40px;
+  }
+
+  h1 {
+    align-self: start;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  .form {
+    align-self: start;
+  }
+}
