@@ -1,4 +1,4 @@
-const gameId = '8kPKQdZ1a1fTYN9LxNsH';
+const gameId = 'XeHCLG7k9SvPi0wjIRpS';
 
 const apiUrl = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`;
 
