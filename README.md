@@ -38,7 +38,7 @@
   </ul>
 </details>
 
-## 🚀 Live Demo
+## 🚀 Live Demo <a name="live-demo"></a>
 
 - You can see the demo [Here](https://abdozayan12.github.io/Leaderboard/dist/)
 
