@@ -43,7 +43,7 @@ main {
 
 h1 {
   align-items: center;
-  font-size: 2rem;
+  font-size: 20px;
   margin-bottom: 25px;
 }
 
@@ -70,7 +70,7 @@ h1 {
 
 .scores {
   border: 1px solid var(--fourth);
-  border-radius: 2.5px;
+  border-radius: 4px;
   max-height: 300px;
   overflow-y: auto;
 }
@@ -111,7 +111,7 @@ input {
   outline: var(--third);
   background: var(--fourth);
   border: 1px solid var(--fourth);
-  border-radius: 2.5px;
+  border-radius: 3px;
 }
 
 input::placeholder {
@@ -141,12 +141,13 @@ button {
 
   h1 {
     align-self: start;
-    font-size: 2.5rem;
+    font-size: 35px;
     font-weight: 900;
+    position: relative;
   }
 
   h3 {
-    font-size: 1.6rem;
+    font-size: 30px;
   }
 
   .form {
