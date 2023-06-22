@@ -1,6 +1,4 @@
-
 const Url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/XeHCLG7k9SvPi0wjIRpS/scores/';
-
 
 const createScore = async (user, score) => {
   const response = await fetch(Url, {
